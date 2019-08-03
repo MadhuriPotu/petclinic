@@ -53,7 +53,7 @@ public class OwnerController {
 
     @InitBinder
     public void setAllowedFields(WebDataBinder dataBinder) {
-        dataBinder.setDisallowedFields("Identity");
+        dataBinder.setDisallowedFields("Identification");
     }
 
     @RequestMapping(value = "/owners/new", method = RequestMethod.GET)
